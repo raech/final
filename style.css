@@ -1,0 +1,64 @@
+html, body {
+ 
+	margin: 5px;
+ 	/*overflow: hidden;*/ /* Hide the scrollbars */
+	background-image: url(http://hollycswanson.com/image/glitter-stars05.gif);
+
+} 
+
+#sketch-holder {
+
+/*centering ?? */
+	margin: 0;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #F18F08;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #F7C128;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content li, a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #928E8C;
+	color: #FFFBF8;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
